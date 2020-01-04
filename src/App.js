@@ -8,7 +8,8 @@ import { Dropdown, Icon } from 'antd';
 import { menu } from './components/select/DropDown'
 import Date from './components/date/Date'
 import {IntegerStep } from './components/slider/Slider'
-
+import Filter from './table/Filter'
+import Echart from './components/echarts/Echart'
 
 
 function App() {
@@ -24,6 +25,8 @@ function App() {
       </Dropdown>
       <Date></Date>
       <IntegerStep></IntegerStep>
+      <Filter></Filter>
+      <Echart></Echart>
     </div>
   );
 }
