@@ -10,6 +10,7 @@ import Date from './components/date/Date'
 import {IntegerStep } from './components/slider/Slider'
 import Filter from './table/Filter'
 import Echart from './components/echarts/Echart'
+import Test from './components/axiosTest/Test'
 
 
 function App() {
@@ -26,7 +27,8 @@ function App() {
       <Date></Date>
       <IntegerStep></IntegerStep>
       <Filter></Filter>
-      <Echart></Echart>
+      {/* <Echart></Echart> */}
+      <Test></Test>
     </div>
   );
 }

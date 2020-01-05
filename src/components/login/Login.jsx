@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import store from '../../store/index'
-import { Button } from 'antd';
-import "antd/dist/antd.css";
+import { Button, Spin } from 'antd';
 
 
 class Login extends Component {
@@ -12,7 +11,8 @@ class Login extends Component {
             <div>
                {store.getState()}
                <div>
-               <Button type="primary">Primary</Button>
+               <Button type="primary" loading>Primary</Button>
+               <Spin>11</Spin>
                </div>
             </div>
         );
